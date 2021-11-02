@@ -1,0 +1,11 @@
+create database inovup;
+
+create table carro(
+	id int auto_increment primary key,
+	placa varchar(30) not null,
+	renavam  varchar(30) not null,
+	modelo varchar(30) not null,
+	fabricante varchar(30) not null,
+	ano_fabricacao varchar(4) not null,
+	ano_modelo varchar(4) not null
+);
